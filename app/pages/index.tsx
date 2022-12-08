@@ -8,7 +8,9 @@ import Image3 from '../public/image3.jpeg'
 import Theme from '../theme/Theme'
 
 const myStyle = {
-	padding: "1% 0",
+	padding: "1%",
+	backgroundColor: "transparent !important",
+	width: "98%",
 	nav: {
 		display: "flex",
 		flexDirection: "row",
@@ -36,8 +38,8 @@ const myStyle = {
 	},
 	image:{
 		borderRadius: "10%",
-		width: "80vh",
-		height: "80vh",
+		width: 600,
+		height: 580,
 	}
 }
 
@@ -47,7 +49,7 @@ export default function Home() {
   return (
 	<>
 		<Head>
-			<title>titre</title>
+			<title>Présentation</title>
 		</Head>
 		<Grid container justifyContent="center" alignItems="center" sx={myStyle} rowGap={6}>
 			<List sx={myStyle.nav}>
