@@ -49,7 +49,7 @@ export default function Home() {
 		<Head>
 			<title>Présentation</title>
 		</Head>
-		<Grid container justifyContent="center" alignItems="center" sx={myStyle} rowGap={6}>
+		<Grid container justifyContent="center" alignItems="center" sx={myStyle} rowGap={4}>
 			<List sx={myStyle.nav}>
 				<ListItemButton selected={selected === 1} onClick={_=>setSelected(1)}>
 					<ListItemText primary="text1" />
