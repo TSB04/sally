@@ -4,9 +4,10 @@ let Theme = createTheme({
     palette: {
         primary: {
             main: "#FFFBEB",
+            dark: "#2A2727"
         },
         secondary: {
-            main: "#181D31",
+            main: "#FF7000",
             light: "#D6E4E5",
             dark: "#497174",
         },
@@ -23,6 +24,7 @@ Theme = createTheme ({
             styleOverrides: {
                 root: {
                     backgroundColor: Theme.palette.secondary.dark,
+                    padding: "0",
                 },
             }
         },
