@@ -8,8 +8,9 @@ import Image3 from '../public/image3.jpeg'
 import Theme from '../theme/Theme'
 
 const myStyle = {
-	padding: "2% 0",
+	padding: "1% 0",
 	background: Theme.palette.primary.dark,
+
 	nav: {
 		display: "flex",
 		flexDirection: "row",
@@ -18,10 +19,10 @@ const myStyle = {
 	main: {
 	},
 	aside:{
-
+		backgroundColor:"red"
 	},
 	text:{
-		maxHeight: "58vh",
+		maxHeight: "50vh",
 		overflowY: "auto",
 		"&::-webkit-scrollbar": {
 			width: "2.5px",
@@ -36,8 +37,8 @@ const myStyle = {
 	},
 	image:{
 		borderRadius: "10%",
-		width: "65vh",
-		height: "70vh",
+		width: 550,
+		height: 600,
 	}
 }
 
