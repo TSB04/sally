@@ -44,12 +44,12 @@ Theme = createTheme ({
         h3: {
             fontFamily: "Brush Script MT",
             fontSize: "3.5rem",
-            padding: "2rem",
+            padding: "2%",
         },
         h4: {
             fontFamily: "IBM Plex Mono",
             fontSize: "2.5rem",
-            padding: "0.8rem",
+            padding: "0.6%",
         },
         body1: {
             fontFamily: "Rockwell Extra Bold",
