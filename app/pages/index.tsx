@@ -70,37 +70,39 @@ export default function Home() {
 				<Grid container>
 					<Grid xs={7} alignItems="center" justifyContent="end" sx={myStyle.main}>
 						<Typography variant="h3">Biographie</Typography>
-						<Typography variant="h4">« Il y a plus d’une définition dans la maison du droit » 
-						- Définir le droit, 
-						Jean Carbonnier dans Droits, revue française de théories, de philosophie et de culture juridiques, 1990</Typography>
-						<Typography variant="body2" sx={myStyle.text}>
-						
-						<p>Jean Carbonnier</p>
-						<p>Né le 20 avril 1908 à Libourne (près de Bordeaux) et mort le 28 octobre 2003 à Paris
-							Il a étudié le droit à la Faculté de Droit et des Sciences Politiques de Bordeaux
-						
-						</p> 
-						<p>Reconnu pour avoir été auteur, juriste, professeur de droit privé, spécialiste en droit 
-							civil, doyen de la faculté de droit de Poitiers.</p>
-
-						<p>Doctorant en 1932, il est agrégé des facultés de droit en droit privé et sciences criminelles en 1937. 
-							Jean Carbonnier est professeur à l'université de Poitiers de 1937 à 1956.</p>
-						<p>
-						Durant l’Occupation, son indépendance le conduit à faire l’éloge de la Déclaration des droits de l'homme dans 
-						un commentaire de l’arrêt Ferrand du Conseil d’État ou à critiquer l’extradition pour crimes politiques dans 
-						un commentaire d’arrêt de la Cour d'appel de Paris.
-						Il occupe le poste de doyen de l'université de Poitiers, 
-						depuis lors il est surnommé le « doyen Carbonnier » par le milieu juridique.
-						Professeur à Panthéon-Assas jusqu'en 1976.
-						De culture et de religion protestante, il prône la sociologie juridique comme approche 
-						complémentaire et utile à la compréhension du droit positif : 
-						citation : « À un moment, le sociologue doit prendre la place du juriste pour épuiser 
-						la réalité juridique ».
-						</p>
-
-
+						<Typography variant="h4">
+							« Il y a plus d’une définition dans la maison du droit » 
+							- Définir le droit, 
+							Jean Carbonnier dans Droits, revue française de théories, de philosophie et de culture juridiques, 1990
 						</Typography>
-						
+							<Typography variant="body2" sx={myStyle.text}>
+								Jean Carbonnier
+							</Typography>
+							<Typography variant="body2" sx={myStyle.text}>
+								Né le 20 avril 1908 à Libourne (près de Bordeaux) et mort le 28 octobre 2003 à Paris
+								Il a étudié le droit à la Faculté de Droit et des Sciences Politiques de Bordeaux
+							</Typography> 
+							<Typography variant="body2" sx={myStyle.text}>
+								Reconnu pour avoir été auteur, juriste, professeur de droit privé, spécialiste en droit 
+								civil, doyen de la faculté de droit de Poitiers.
+							</Typography>
+							<Typography variant="body2" sx={myStyle.text}>
+								Doctorant en 1932, il est agrégé des facultés de droit en droit privé et sciences criminelles en 1937. 
+								Jean Carbonnier est professeur à l&apos;université de Poitiers de 1937 à 1956.
+							</Typography>
+							<Typography variant="body2" sx={myStyle.text}>
+								Durant l’Occupation, son indépendance le conduit à faire l’éloge de la Déclaration des droits de l&apos;homme dans 
+								un commentaire de l’arrêt Ferrand du Conseil d’État ou à critiquer l’extradition pour crimes politiques dans 
+								un commentaire d’arrêt de la Cour d&apos;appel de Paris.
+								Il occupe le poste de doyen de l&apos;université de Poitiers, 
+								depuis lors il est surnommé le « doyen Carbonnier » par le milieu juridique.
+								Professeur à Panthéon-Assas jusqu&apos;en 1976.
+								De culture et de religion protestante, il prône la sociologie juridique comme approche 
+								complémentaire et utile à la compréhension du droit positif : 
+								citation : « À un moment, le sociologue doit prendre la place du juriste pour épuiser 
+								la réalité juridique ».
+							</Typography>
+							
 					</Grid>
 					<Grid item sx={myStyle.aside}>
 						<Image src={Image1} alt="image1" style={myStyle.image}/>
@@ -130,11 +132,11 @@ export default function Home() {
 						<p>Carbonnier et le droit romain :
  						« le droit romain mérite plusieurs étoiles ». Carbonnier fait partie de cette génération encore attaché à la culture latine. 
  						Il a lu quelques passages du Digeste </p>
-						<p>D'autres oeuvres de Carbonnier</p>
-						<p>•	Flexible droit, Pour une sociologie du droit sans rigueur, 10ième éd., LGDJ, 2010, 496 p. (Articulation raisonnée  d'articles publiés dispersée précédemment)
-						•	Essais sur les Lois, 2ième éd., Répertoire du Notariat Defrénois, 1992, 336 p. (Articulation d'articles publiés disperse précédemment)
+						<p>D&apos;autres oeuvres de Carbonnier</p>
+						<p>•	Flexible droit, Pour une sociologie du droit sans rigueur, 10ième éd., LGDJ, 2010, 496 p. (Articulation raisonnée  d&apos;articles publiés dispersée précédemment)
+						•	Essais sur les Lois, 2ième éd., Répertoire du Notariat Defrénois, 1992, 336 p. (Articulation d&apos;articles publiés disperse précédemment)
 						•	Sociologie juridique, PUF, 1978
-						•	Droit civil, vol. 1 : Introduction. Les personnes. La famille, l'enfant, le couple, Paris, PUF, coll. « Quadrige », 2004, 1496 p. 
+						•	Droit civil, vol. 1 : Introduction. Les personnes. La famille, l&apos;enfant, le couple, Paris, PUF, coll. « Quadrige », 2004, 1496 p. 
 						•	Droit civil, vol. 2 : Les biens. Les obligations, Paris, PUF, coll. « Quadrige », 2004, 1496 p.
 						•	Droit et passion du droit sous la Vième République, 2ième éd, Flammarion, 273 p.</p>
 
@@ -197,11 +199,11 @@ export default function Home() {
 						</p>
 						<p>
 							
-							Jean Carbonnier introduit l’étude entre fait et droit. Surnommé le doyen Carbonnier, anciennement professeur à l'université de Poitiers puis à la faculté de droit de Paris il marqua des générations d’étudiants. Selon lui le droit exprime une simple partie de la complexité humaine, il ne doit donc pas toucher à ce qui le dépasse. Le droit se doit donc d’être modeste et d’intégrer les évolutions sociales. Le droit est, selon lui, plus petit que l’ensemble des relations entre les hommes, par cette pensée il s’oppose au panjurisme (=vision qui suppose du droit partout, dans chaque relation sociale ou inter-individuelle). Il s’agit ainsi d’analyser le droit positif tout en envisageant son ouverture à l’analyse de la régulations des rapports sociaux.
+							Jean Carbonnier introduit l’étude entre fait et droit. Surnommé le doyen Carbonnier, anciennement professeur à l&apos;université de Poitiers puis à la faculté de droit de Paris il marqua des générations d’étudiants. Selon lui le droit exprime une simple partie de la complexité humaine, il ne doit donc pas toucher à ce qui le dépasse. Le droit se doit donc d’être modeste et d’intégrer les évolutions sociales. Le droit est, selon lui, plus petit que l’ensemble des relations entre les hommes, par cette pensée il s’oppose au panjurisme (=vision qui suppose du droit partout, dans chaque relation sociale ou inter-individuelle). Il s’agit ainsi d’analyser le droit positif tout en envisageant son ouverture à l’analyse de la régulations des rapports sociaux.
 							Dès 1955 Jean Carbonnier dans son Manuel de droit civil exprime sa conception renouvelée du droit et dans Flexible droit il présente sa théorie de la sociologie juridique avec ce sous-titre évocateur ; « Pour une sociologie du droit sans rigueur ». Il met en évidence la nécessité de considérer une diversité juridique. Il se consacre donc à l’étude des phénomènes sociaux sans se limiter à celle du droit officielle y compris les phénomènes de déviation et de non-droit.
 							Une telle approche du droit a profondément modifié le contenu et la méthode d’enseignement du droit dans les universités. 
 							Une nouvelle méthode d’enseignement : 
-							Dans la préface de son manuel, Jean Carbonnier dit : « j'ai une sympathie très profonde pour toutes les opinions qui divisent la doctrine et tous les sentiments qui font la France ». Il avait à coeur d’ouvrir l’esprits des étudiants aux problèmes sociaux, religieux et politiques. Il était ouvert au débat sans chercher à imposer ses idées de façon dogmatique (=qui rejette toute critique ou doute, vérité absolue). 
+							Dans la préface de son manuel, Jean Carbonnier dit : « j&apos;ai une sympathie très profonde pour toutes les opinions qui divisent la doctrine et tous les sentiments qui font la France ». Il avait à coeur d’ouvrir l’esprits des étudiants aux problèmes sociaux, religieux et politiques. Il était ouvert au débat sans chercher à imposer ses idées de façon dogmatique (=qui rejette toute critique ou doute, vérité absolue). 
 							Sa conception va dans le sens des réformes qui seront apportées au études de droits entre les années 50 et 60. L’enjeu d’interdisciplinarité sera au coeur de ces dernières, deux intérêts distincts sont attachés à ces réformes ; d’un côté on prône une conception étroite de l’enseignement et de l’autre une ouverture aux sciences sociales. Dans ce contexte Carbonnier se positionne pour la défense de l’ouverture des facultés de droit à la sociologie. 
 							Il se prononce aussi sur l’intérêt de la méthode comparative dans les facultés ; cette dernière consiste à établir et comparer les normes en vigueur dans le domaine donné dans les systèmes juridiques différents. 
 						</p>
@@ -228,17 +230,17 @@ export default function Home() {
 						<Typography variant="h3">Sources</Typography>
 						<Typography variant="h4">Travail de BARRY Salamata, BERTAUX Tifenn, BRUNO Brunia, BISUMBULE Nawa, BOUAZZA Kélia </Typography>
 						<Typography variant="body2" sx={myStyle.text}>
-						http://netcampus.free.fr/droit/civil/1-sourcesdtobj51.php3 
-						https://wp.unil.ch/bases/2013/05/auguste-comte-et-le-positivisme/ https://www.universalis.fr/encyclopedie/jean-carbonnier/ 
-						http://www.justice.gouv.fr/art_pix1_script_carbonnier_verdier_20120312.pdf 
-						https://books.openedition.org/pupo/2632?lang=en#ftn4 
-						La méthode comparative dans les sciences juridiques 
-						https://czasopisma.inp.pan.pl 
-						https://www.cairn.info/revue-l-annee-sociologique-2007-2-page-403.htm#no1 
-						https://youtu.be/NLkFdsIL_Ew
+							http://netcampus.free.fr/droit/civil/1-sourcesdtobj51.php3 
+							https://wp.unil.ch/bases/2013/05/auguste-comte-et-le-positivisme/ https://www.universalis.fr/encyclopedie/jean-carbonnier/ 
+							http://www.justice.gouv.fr/art_pix1_script_carbonnier_verdier_20120312.pdf 
+							https://books.openedition.org/pupo/2632?lang=en#ftn4 
+							La méthode comparative dans les sciences juridiques 
+							https://czasopisma.inp.pan.pl 
+							https://www.cairn.info/revue-l-annee-sociologique-2007-2-page-403.htm#no1 
+							https://youtu.be/NLkFdsIL_Ew
 
-						https://youtu.be/agaYlOsqRBQ
-						https://youtu.be/57spXG1f2Lk 
+							https://youtu.be/agaYlOsqRBQ
+							https://youtu.be/57spXG1f2Lk 
 
 						</Typography>
 						
@@ -248,6 +250,7 @@ export default function Home() {
 					</Grid>
 				</Grid>
 			}
+			
 			
 		</Grid>
 	</>
