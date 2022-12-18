@@ -44,7 +44,8 @@ const myStyle = {
 }
 
 export default function Home() {
-	const [selected, setSelected] = React.useState(1)
+	const [selected, setSelected] = React.useState(0)
+	React.useEffect(() => {setSelected(1)}, [])
 
   return (
 	<>
@@ -70,39 +71,38 @@ export default function Home() {
 				<Grid container>
 					<Grid xs={7} alignItems="center" justifyContent="end" sx={myStyle.main}>
 						<Typography variant="h3">Biographie</Typography>
-						<Typography variant="h4">
-							« Il y a plus d’une définition dans la maison du droit » 
-							- Définir le droit, 
-							Jean Carbonnier dans Droits, revue française de théories, de philosophie et de culture juridiques, 1990
+						<Typography variant="h4">« Il y a plus d’une définition dans la maison du droit » 
+						- Définir le droit, 
+						Jean Carbonnier dans Droits, revue française de théories, de philosophie et de culture juridiques, 1990</Typography>
+						<Typography variant="body2" sx={myStyle.text}>
+						
+						<p>Jean Carbonnier</p>
+						<p>Né le 20 avril 1908 à Libourne (près de Bordeaux) et mort le 28 octobre 2003 à Paris
+							Il a étudié le droit à la Faculté de Droit et des Sciences Politiques de Bordeaux
+						
+						</p> 
+						<p>Reconnu pour avoir été auteur, juriste, professeur de droit privé, spécialiste en droit 
+							civil, doyen de la faculté de droit de Poitiers.</p>
+
+						<p>Doctorant en 1932, il est agrégé des facultés de droit en droit privé et sciences criminelles en 1937. 
+							Jean Carbonnier est professeur à l&apos;université de Poitiers de 1937 à 1956.
+							</p>
+						<p>
+						Durant l’Occupation, son indépendance le conduit à faire l’éloge de la Déclaration des droits de l&apos;homme dans 
+						un commentaire de l’arrêt Ferrand du Conseil d’État ou à critiquer l’extradition pour crimes politiques dans 
+						un commentaire d’arrêt de la Cour dvappel de Paris.
+						Il occupe le poste de doyen de l&apos;université de Poitiers, 
+						depuis lors il est surnommé le « doyen Carbonnier » par le milieu juridique.
+						Professeur à Panthéon-Assas jusqu&apos;en 1976.
+						De culture et de religion protestante, il prône la sociologie juridique comme approche 
+						complémentaire et utile à la compréhension du droit positif : 
+						citation : « À un moment, le sociologue doit prendre la place du juriste pour épuiser 
+						la réalité juridique ».
+						</p>
+
+
 						</Typography>
-							<Typography variant="body2" sx={myStyle.text}>
-								Jean Carbonnier
-							</Typography>
-							<Typography variant="body2" sx={myStyle.text}>
-								Né le 20 avril 1908 à Libourne (près de Bordeaux) et mort le 28 octobre 2003 à Paris
-								Il a étudié le droit à la Faculté de Droit et des Sciences Politiques de Bordeaux
-							</Typography> 
-							<Typography variant="body2" sx={myStyle.text}>
-								Reconnu pour avoir été auteur, juriste, professeur de droit privé, spécialiste en droit 
-								civil, doyen de la faculté de droit de Poitiers.
-							</Typography>
-							<Typography variant="body2" sx={myStyle.text}>
-								Doctorant en 1932, il est agrégé des facultés de droit en droit privé et sciences criminelles en 1937. 
-								Jean Carbonnier est professeur à l&apos;université de Poitiers de 1937 à 1956.
-							</Typography>
-							<Typography variant="body2" sx={myStyle.text}>
-								Durant l’Occupation, son indépendance le conduit à faire l’éloge de la Déclaration des droits de l&apos;homme dans 
-								un commentaire de l’arrêt Ferrand du Conseil d’État ou à critiquer l’extradition pour crimes politiques dans 
-								un commentaire d’arrêt de la Cour d&apos;appel de Paris.
-								Il occupe le poste de doyen de l&apos;université de Poitiers, 
-								depuis lors il est surnommé le « doyen Carbonnier » par le milieu juridique.
-								Professeur à Panthéon-Assas jusqu&apos;en 1976.
-								De culture et de religion protestante, il prône la sociologie juridique comme approche 
-								complémentaire et utile à la compréhension du droit positif : 
-								citation : « À un moment, le sociologue doit prendre la place du juriste pour épuiser 
-								la réalité juridique ».
-							</Typography>
-							
+						
 					</Grid>
 					<Grid item sx={myStyle.aside}>
 						<Image src={Image1} alt="image1" style={myStyle.image}/>
@@ -116,29 +116,29 @@ export default function Home() {
 						<Typography variant="h4">Productions</Typography>
 						<Typography variant="body2" sx={myStyle.text}>
 						
-						<p>Carbonnier et le droit : Au niveau doctrinal, il a écrit de nombreux manuels de droit. 
-						Au niveau législatif, il a écrit des projets à propos de l’autorité parentale, la filiation, 
-						le droit du divorce ou du droit de successions. 
-						Il fut donc un législateur ayant contribuer à renouveler profondément le Code civil 
-						ainsi que l’inspirateur libéral du droit de la famille des années 70. </p>
+							<p>Carbonnier et le droit : Au niveau doctrinal, il a écrit de nombreux manuels de droit. 
+							Au niveau législatif, il a écrit des projets à propos de l’autorité parentale, la filiation, 
+							le droit du divorce ou du droit de successions. 
+							Il fut donc un législateur ayant contribuer à renouveler profondément le Code civil 
+							ainsi que l’inspirateur libéral du droit de la famille des années 70. </p>
 
-						<p>Carbonnier et le droit de la famille : il a réformé des pans entier en droit civil, 
-						plus précisément en droit de la famille. </p>
+							<p>Carbonnier et le droit de la famille : il a réformé des pans entier en droit civil, 
+							plus précisément en droit de la famille. </p>
 
-						<p>Carbonnier et la jurisprudence : 
-						« la jurisprudence n’est pas une véritable source du droit civil comparable à la loi ou même à la coutume. 
-						Mais, elle est une autorité considérable en droit civil. »</p>
+							<p>Carbonnier et la jurisprudence : 
+							« la jurisprudence n’est pas une véritable source du droit civil comparable à la loi ou même à la coutume. 
+							Mais, elle est une autorité considérable en droit civil. »</p>
 
-						<p>Carbonnier et le droit romain :
- 						« le droit romain mérite plusieurs étoiles ». Carbonnier fait partie de cette génération encore attaché à la culture latine. 
- 						Il a lu quelques passages du Digeste </p>
-						<p>D&apos;autres oeuvres de Carbonnier</p>
-						<p>•	Flexible droit, Pour une sociologie du droit sans rigueur, 10ième éd., LGDJ, 2010, 496 p. (Articulation raisonnée  d&apos;articles publiés dispersée précédemment)
-						•	Essais sur les Lois, 2ième éd., Répertoire du Notariat Defrénois, 1992, 336 p. (Articulation d&apos;articles publiés disperse précédemment)
-						•	Sociologie juridique, PUF, 1978
-						•	Droit civil, vol. 1 : Introduction. Les personnes. La famille, l&apos;enfant, le couple, Paris, PUF, coll. « Quadrige », 2004, 1496 p. 
-						•	Droit civil, vol. 2 : Les biens. Les obligations, Paris, PUF, coll. « Quadrige », 2004, 1496 p.
-						•	Droit et passion du droit sous la Vième République, 2ième éd, Flammarion, 273 p.</p>
+							<p>Carbonnier et le droit romain :
+							« le droit romain mérite plusieurs étoiles ». Carbonnier fait partie de cette génération encore attaché à la culture latine. 
+							Il a lu quelques passages du Digeste </p>
+							<p>D&apos;autres oeuvres de Carbonnier</p>
+							<p>•	Flexible droit, Pour une sociologie du droit sans rigueur, 10ième éd., LGDJ, 2010, 496 p. (Articulation raisonnée  d&apos;articles publiés dispersée précédemment)
+							•	Essais sur les Lois, 2ième éd., Répertoire du Notariat Defrénois, 1992, 336 p. (Articulation d&apos;articles publiés disperse précédemment)
+							•	Sociologie juridique, PUF, 1978
+							•	Droit civil, vol. 1 : Introduction. Les personnes. La famille, l&apos;enfant, le couple, Paris, PUF, coll. « Quadrige », 2004, 1496 p. 
+							•	Droit civil, vol. 2 : Les biens. Les obligations, Paris, PUF, coll. « Quadrige », 2004, 1496 p.
+							•	Droit et passion du droit sous la Vième République, 2ième éd, Flammarion, 273 p.</p>
 
 
 						</Typography>
